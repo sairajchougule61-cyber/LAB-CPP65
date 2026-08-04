@@ -31,10 +31,14 @@ void displayDetails() const{
 };
 
 int main(){
-    Student s;
+    Student s1;
+    s1.inputDetails();
+    s1.displayDetails();
 
-    s.inputDetails();
-    s.displayDetails();
+     Student s2;
+    s2.inputDetails();
+    s2.displayDetails();
+    
     
     return 0;
 
