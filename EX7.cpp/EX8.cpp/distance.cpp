@@ -14,7 +14,7 @@ this->feet = f;
 // Overloading(-) operator to perform decrement operation of Distance object 
 void operator-() 
 {
- feet--; 
+ feet=feet-3; 
 inch--; 
 cout << "\nFeet & Inches(Decrement): " << feet << "'" << inch;
  } 
